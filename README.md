@@ -1,16 +1,29 @@
-## Hi there 👋
+# Kyrylo
 
-<!--
-**kyrylo82/kyrylo82** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-Here are some ideas to get you started:
+> Shipping with AI agents around the clock -- human hours for thinking, machine hours for doing.
+>
+> Stats auto-updated by [aidevops](https://aidevops.sh).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- STATS-START -->
+<!-- Stats will be populated on first update -->
+<!-- STATS-END -->
+
+## Projects
+
+- **[wowngo-front](https://github.com/kyrylo82/wowngo-front)** -- No description
+- **[heatguard-calc](https://github.com/kyrylo82/heatguard-calc)** -- No description
+- **[blacklist-filter](https://github.com/kyrylo82/blacklist-filter)** -- Filter incoming connections from blacklisted zones
+## Connect
+
+[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kyrylo82)
+
+---
+
+<!-- UPDATED-START -->
+<!-- UPDATED-END -->
