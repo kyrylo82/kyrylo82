@@ -16,9 +16,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 2.3h | 2.5h | 2.5h | 2.5h |
+| User AI session hours | 1.3h | 2.5h | 2.5h | 2.5h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 2.4h | 2.6h | 2.6h | 2.6h |
+| AI concurrency hours | 1.4h | 2.6h | 2.6h | 2.6h |
 | Interactive sessions | 1 | 1 | 1 | 1 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -39,5 +39,5 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-22 21:02 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-22 22:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
