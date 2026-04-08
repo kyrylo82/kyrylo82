@@ -16,15 +16,43 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 0.0h | 0.0h | 0.0h |
+| User AI session hours | 0.4h | 0.4h | 0.4h | 0.4h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| Interactive sessions | 1 | 1 | 1 | 1 |
+| AI concurrency hours | 0.6h | 0.6h | 0.6h | 0.6h |
+| Interactive sessions | 3 | 3 | 3 | 3 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
 _User AI session hours measured from AI message timestamps (reading, thinking, typing between responses)._
+
+## AI Model Usage (last 30 days)
+
+| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| claude-opus-4-6 | 74 | 85 | 16K | 7.6M | $16.63 | $103.50 | $0.00 |
+| claude-sonnet-4-6 | 14 | 29 | 1K | 769K | $0.56 | $2.08 | $1.04 |
+| **Total** | **88** | **114** | **18K** | **8.4M** | **$17.19** | **$105.58** | **$1.04** |
+
+_8.7M total tokens processed. 96.5% cache hit rate._
+
+_$106.62 total saved ($105.58 caching + $1.04 model routing vs all-Opus)._
+
+_Model savings are modest because ~96.5% of tokens are cache reads, where price differences between models are small._
+
+## AI Model Usage (all time)
+
+| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| claude-opus-4-6 | 75 | 85 | 16K | 7.6M | $12.73 | $103.50 | $0.00 |
+| claude-sonnet-4-6 | 14 | 29 | 1K | 769K | $0.25 | $2.08 | $1.04 |
+| **Total** | **89** | **114** | **18K** | **8.4M** | **$12.98** | **$105.58** | **$1.04** |
+
+_8.8M total tokens processed. 96.3% cache hit rate._
+
+_$106.62 total saved ($105.58 caching + $1.04 model routing vs all-Opus)._
+
+_Model savings are modest because ~96.3% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -39,5 +67,5 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-08 21:28 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-08 22:28 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
