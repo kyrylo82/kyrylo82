@@ -16,9 +16,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 4.0h | 5.1h | 5.1h | 5.1h |
+| User AI session hours | 4.9h | 6.0h | 6.0h | 6.0h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 10.4h | 11.8h | 11.8h | 11.8h |
+| AI concurrency hours | 11.3h | 12.7h | 12.7h | 12.7h |
 | Interactive sessions | 9 | 15 | 15 | 15 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -31,12 +31,12 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 238 | 269 | 50K | 25.4M | $59.88 | $344.02 | $0.00 |
-| claude-sonnet-4-6 | 555 | 843 | 130K | 49.1M | $20.81 | $132.81 | $66.84 |
+| claude-sonnet-4-6 | 556 | 843 | 130K | 49.1M | $20.81 | $132.81 | $66.84 |
 | glm-5.1 | 60 | 409K | 11K | 2.1M | $2.04 | $5.74 | $8.15 |
-| claude-opus-4-5 | 2 | 6 | 48 | 11K | $1.48 | $0.15 | $0.00 |
+| claude-opus-4-5 | 3 | 6 | 48 | 11K | $1.48 | $0.15 | $0.00 |
 | claude-opus-4-5 | 1 | 10 | 78 | 0 | $1.19 | $0.00 | $0.00 |
 | claude-sonnet-4-5 | 30 | 331 | 9K | 1.2M | $0.82 | $3.37 | $2.04 |
-| **Total** | **886** | **411K** | **201K** | **78.0M** | **$86.22** | **$486.09** | **$77.04** |
+| **Total** | **888** | **411K** | **201K** | **78.0M** | **$86.22** | **$486.09** | **$77.04** |
 
 _80.9M total tokens processed. 96.4% cache hit rate._
 
@@ -49,10 +49,10 @@ _Model savings are modest because ~96.4% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 236 | 263 | 50K | 25.1M | $41.56 | $339.82 | $0.00 |
-| claude-sonnet-4-6 | 555 | 843 | 130K | 49.1M | $16.70 | $132.81 | $66.84 |
+| claude-sonnet-4-6 | 556 | 843 | 130K | 49.1M | $16.70 | $132.81 | $66.84 |
 | glm-5.1 | 60 | 409K | 11K | 2.1M | $2.02 | $5.74 | $8.15 |
 | claude-sonnet-4-5 | 30 | 331 | 9K | 1.2M | $0.50 | $3.37 | $2.04 |
-| **Total** | **881** | **411K** | **201K** | **77.7M** | **$60.78** | **$481.74** | **$77.04** |
+| **Total** | **882** | **411K** | **201K** | **77.7M** | **$60.78** | **$481.74** | **$77.04** |
 
 _80.7M total tokens processed. 96.4% cache hit rate._
 
@@ -73,5 +73,5 @@ _Model savings are modest because ~96.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-10 16:09 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-10 17:10 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
