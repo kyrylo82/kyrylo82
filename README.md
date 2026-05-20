@@ -30,13 +30,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 2,376 | 3K | 1.0M | 281.4M | $0 | $0 | $0 |
+| claude-opus-4-6 | 2,372 | 3K | 1.0M | 281.0M | $0 | $0 | $0 |
 | claude-opus-4-7 | 1,771 | 3K | 1.1M | 211.5M | $0 | $0 | $0 |
-| gpt-5.5 | 838 | 5.3M | 221K | 94.1M | $0 | $0 | $0 |
+| gpt-5.5 | 840 | 5.4M | 222K | 94.2M | $0 | $0 | $0 |
 | glm-5.1 | 166 | 1.3M | 34K | 15.0M | $0 | $0 | $0 |
-| **Total** | **5,151** | **6.6M** | **2.4M** | **602.1M** | **$0** | **$0** | **$0** |
+| **Total** | **5,149** | **6.8M** | **2.4M** | **601.9M** | **$0** | **$0** | **$0** |
 
-_647.1M total tokens processed. 93% cache hit rate._
+_647.0M total tokens processed. 93% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
@@ -48,13 +48,13 @@ _Model savings are modest because ~93% of tokens are cache reads, where price di
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 5,228 | 7K | 2.9M | 618.9M | $0 | $0 | $0 |
 | claude-opus-4-7 | 1,798 | 3K | 1.1M | 211.5M | $0 | $0 | $0 |
-| gpt-5.5 | 838 | 5.3M | 221K | 94.1M | $0 | $0 | $0 |
+| gpt-5.5 | 840 | 5.4M | 222K | 94.2M | $0 | $0 | $0 |
 | claude-sonnet-4-6 | 567 | 858 | 131K | 49.3M | $0 | $0 | $0 |
 | glm-5.1 | 226 | 1.7M | 46K | 17.1M | $0 | $0 | $0 |
 | claude-sonnet-4-5 | 30 | 331 | 9K | 1.2M | $0 | $0 | $0 |
-| **Total** | **8,687** | **7.0M** | **4.5M** | **992.3M** | **$0** | **$0** | **$0** |
+| **Total** | **8,689** | **7.2M** | **4.5M** | **992.5M** | **$0** | **$0** | **$0** |
 
-_1,065.1M total tokens processed. 93.2% cache hit rate._
+_1,065.4M total tokens processed. 93.2% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
@@ -73,5 +73,5 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-20 12:05 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-20 13:07 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
