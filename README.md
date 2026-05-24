@@ -30,13 +30,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-7 | 2,090 | 3K | 1.4M | 250.7M | $0 | $0 | $0 |
+| claude-opus-4-7 | 2,124 | 3K | 1.4M | 253.8M | $0 | $0 | $0 |
 | claude-opus-4-6 | 2,020 | 2K | 830K | 253.3M | $0 | $0 | $0 |
 | gpt-5.5 | 1,986 | 10.8M | 502K | 231.1M | $0 | $0 | $0 |
 | glm-5.1 | 176 | 1.4M | 36K | 15.3M | $0 | $0 | $0 |
-| **Total** | **6,272** | **12.2M** | **2.8M** | **750.6M** | **$0** | **$0** | **$0** |
+| **Total** | **6,306** | **12.2M** | **2.8M** | **753.7M** | **$0** | **$0** | **$0** |
 
-_802.4M total tokens processed. 93.5% cache hit rate._
+_805.7M total tokens processed. 93.5% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
@@ -47,14 +47,14 @@ _Model savings are modest because ~93.5% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 5,228 | 7K | 2.9M | 618.9M | $0 | $0 | $0 |
-| claude-opus-4-7 | 2,117 | 3K | 1.4M | 250.7M | $0 | $0 | $0 |
+| claude-opus-4-7 | 2,152 | 3K | 1.4M | 253.8M | $0 | $0 | $0 |
 | gpt-5.5 | 1,987 | 10.8M | 502K | 231.1M | $0 | $0 | $0 |
 | claude-sonnet-4-6 | 567 | 858 | 131K | 49.3M | $0 | $0 | $0 |
 | glm-5.1 | 236 | 1.8M | 47K | 17.4M | $0 | $0 | $0 |
 | claude-sonnet-4-5 | 30 | 331 | 9K | 1.2M | $0 | $0 | $0 |
-| **Total** | **10,165** | **12.6M** | **5.1M** | **1,168.9M** | **$0** | **$0** | **$0** |
+| **Total** | **10,200** | **12.6M** | **5.1M** | **1,172.0M** | **$0** | **$0** | **$0** |
 
-_1,253.0M total tokens processed. 93.3% cache hit rate._
+_1,256.2M total tokens processed. 93.3% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
@@ -73,5 +73,5 @@ _Model savings are modest because ~93.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-23 23:18 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-24 01:20 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
