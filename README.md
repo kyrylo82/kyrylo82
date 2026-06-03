@@ -47,11 +47,11 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 5,228 | 7K | 2.9M | 618.9M | $0 | $0 | $0 |
 | claude-opus-4-7 | 2,999 | 5K | 2.4M | 365.8M | $0 | $0 | $0 |
-| gpt-5.5 | 3,006 | 17.9M | 773K | 350.8M | $0 | $0 | $0 |
+| gpt-5.5 | 3,010 | 17.9M | 773K | 350.8M | $0 | $0 | $0 |
 | claude-sonnet-4-6 | 567 | 858 | 131K | 49.3M | $0 | $0 | $0 |
-| glm-5.1 | 236 | 1.8M | 47K | 17.4M | $0 | $0 | $0 |
+| glm-5.1 | 237 | 1.8M | 47K | 17.4M | $0 | $0 | $0 |
 | claude-sonnet-4-5 | 30 | 331 | 9K | 1.2M | $0 | $0 | $0 |
-| **Total** | **12,066** | **19.7M** | **6.4M** | **1,403.7M** | **$0** | **$0** | **$0** |
+| **Total** | **12,071** | **19.7M** | **6.4M** | **1,403.7M** | **$0** | **$0** | **$0** |
 
 _1,508.6M total tokens processed. 93.1% cache hit rate._
 
@@ -72,5 +72,5 @@ _Model savings are modest because ~93.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-02 22:36 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-03 09:39 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
