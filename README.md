@@ -16,7 +16,7 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 1,0h | 4,0h | 4,0h | 4,0h |
+| User AI session hours | 2,0h | 5,0h | 5,0h | 5,0h |
 | AI worker hours | 0,0h | 0,0h | 0,0h | 0,0h |
 | AI concurrency hours | 2,0h | 7,0h | 0h | 0h |
 | Interactive sessions | 2 | 9 | 9 | 9 |
@@ -26,19 +26,19 @@ _Screen time from macOS display events, snapshotted daily. *365-day extrapolated
 
 _User AI session hours measured from AI message timestamps (reading, thinking, typing between responses)._
 
-_AI session 365-day totals cover 3 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 4 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-7 | 1,201 | 2K | 1.3M | 154.3M | $0 | $0 | $0 |
-| gpt-5.5 | 3,091 | 19.7M | 781K | 368.4M | $0 | $0 | $0 |
+| gpt-5.5 | 3,124 | 19.7M | 789K | 374.8M | $0 | $0 | $0 |
 | glm-5.1 | 10 | 85K | 1K | 329K | $0 | $0 | $0 |
 | deepseek-v4-flash-free | 4 | 106K | 216 | 106K | $0 | $0 | $0 |
-| **Total** | **4,306** | **19.9M** | **2.0M** | **523.2M** | **$0** | **$0** | **$0** |
+| **Total** | **4,339** | **19.9M** | **2.0M** | **529.6M** | **$0** | **$0** | **$0** |
 
-_562.8M total tokens processed. 93% cache hit rate._
+_569.2M total tokens processed. 93% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
@@ -50,16 +50,16 @@ _Model savings are modest because ~93% of tokens are cache reads, where price di
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 5,215 | 7K | 2.9M | 619.2M | $0 | $0 | $0 |
 | claude-opus-4-7 | 2,995 | 5K | 2.4M | 365.8M | $0 | $0 | $0 |
-| gpt-5.5 | 3,507 | 22.2M | 903K | 415.0M | $0 | $0 | $0 |
+| gpt-5.5 | 3,540 | 22.3M | 912K | 421.3M | $0 | $0 | $0 |
 | claude-sonnet-4-6 | 567 | 858 | 131K | 49.3M | $0 | $0 | $0 |
 | glm-5.1 | 236 | 1.8M | 47K | 17.4M | $0 | $0 | $0 |
 | claude-opus-4-5 | 3 | 6 | 48 | 11K | $0 | $0 | $0 |
 | claude-opus-4-5 | 1 | 10 | 78 | 0 | $0 | $0 | $0 |
 | claude-sonnet-4-5 | 30 | 331 | 9K | 1.2M | $0 | $0 | $0 |
 | deepseek-v4-flash-free | 4 | 106K | 216 | 106K | $0 | $0 | $0 |
-| **Total** | **12,558** | **24.2M** | **6.5M** | **1,468.3M** | **$0** | **$0** | **$0** |
+| **Total** | **12,591** | **24.3M** | **6.5M** | **1,474.6M** | **$0** | **$0** | **$0** |
 
-_1,577.5M total tokens processed. 93.1% cache hit rate._
+_1,583.9M total tokens processed. 93.1% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
@@ -78,5 +78,5 @@ _Model savings are modest because ~93.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-17 19:57 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-17 21:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
