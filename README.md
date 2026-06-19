@@ -18,7 +18,7 @@
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
 | User AI session hours | 3,0h | 11,0h | 11,0h | 11,0h |
 | AI worker hours | 0,0h | 0,0h | 0,0h | 0,0h |
-| AI concurrency hours | 6,0h | 16,0h | 0h | 0h |
+| AI concurrency hours | 6,0h | 17,0h | 0h | 0h |
 | Interactive sessions | 1 | 9 | 9 | 9 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -33,12 +33,12 @@ _AI session 365-day totals cover 5 days of local assistant session history (not 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-7 | 1,201 | 2K | 1.3M | 154.3M | $0 | $0 | $0 |
-| gpt-5.5 | 3,292 | 19.7M | 878K | 413.6M | $0 | $0 | $0 |
+| gpt-5.5 | 3,314 | 19.8M | 890K | 418.5M | $0 | $0 | $0 |
 | glm-5.1 | 10 | 85K | 1K | 329K | $0 | $0 | $0 |
 | deepseek-v4-flash-free | 4 | 106K | 216 | 106K | $0 | $0 | $0 |
-| **Total** | **4,507** | **19.9M** | **2.1M** | **568.3M** | **$0** | **$0** | **$0** |
+| **Total** | **4,529** | **20.0M** | **2.1M** | **573.3M** | **$0** | **$0** | **$0** |
 
-_608.1M total tokens processed. 93.5% cache hit rate._
+_613.1M total tokens processed. 93.5% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
@@ -50,16 +50,16 @@ _Model savings are modest because ~93.5% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 5,215 | 7K | 2.9M | 619.2M | $0 | $0 | $0 |
 | claude-opus-4-7 | 2,995 | 5K | 2.4M | 365.8M | $0 | $0 | $0 |
-| gpt-5.5 | 4,039 | 24.6M | 1.0M | 496.6M | $0 | $0 | $0 |
+| gpt-5.5 | 4,061 | 24.7M | 1.0M | 501.6M | $0 | $0 | $0 |
 | claude-sonnet-4-6 | 567 | 858 | 131K | 49.3M | $0 | $0 | $0 |
 | glm-5.1 | 236 | 1.8M | 47K | 17.4M | $0 | $0 | $0 |
 | claude-opus-4-5 | 3 | 6 | 48 | 11K | $0 | $0 | $0 |
 | claude-opus-4-5 | 1 | 10 | 78 | 0 | $0 | $0 | $0 |
 | claude-sonnet-4-5 | 30 | 331 | 9K | 1.2M | $0 | $0 | $0 |
 | deepseek-v4-flash-free | 4 | 106K | 216 | 106K | $0 | $0 | $0 |
-| **Total** | **13,090** | **26.6M** | **6.7M** | **1,549.9M** | **$0** | **$0** | **$0** |
+| **Total** | **13,112** | **26.6M** | **6.7M** | **1,554.9M** | **$0** | **$0** | **$0** |
 
-_1,661.7M total tokens processed. 93.3% cache hit rate._
+_1,666.7M total tokens processed. 93.3% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
@@ -78,5 +78,5 @@ _Model savings are modest because ~93.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-19 08:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-19 09:08 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
