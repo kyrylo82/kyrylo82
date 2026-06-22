@@ -32,17 +32,17 @@ _AI session 365-day totals cover 7 days of local assistant session history (not 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-7 | 1,023 | 1K | 1.1M | 133.9M | $0 | $0 | $0 |
+| claude-opus-4-7 | 1,020 | 1K | 1.1M | 133.8M | $0 | $0 | $0 |
 | gpt-5.5 | 2,557 | 18.3M | 748K | 332.9M | $0 | $0 | $0 |
 | glm-5.1 | 10 | 85K | 1K | 329K | $0 | $0 | $0 |
 | deepseek-v4-flash-free | 4 | 106K | 216 | 106K | $0 | $0 | $0 |
-| **Total** | **3,594** | **18.5M** | **1.9M** | **467.3M** | **$0** | **$0** | **$0** |
+| **Total** | **3,591** | **18.5M** | **1.9M** | **467.2M** | **$0** | **$0** | **$0** |
 
-_502.8M total tokens processed. 92.9% cache hit rate._
+_502.5M total tokens processed. 93% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
-_Model savings are modest because ~92.9% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -78,5 +78,5 @@ _Model savings are modest because ~93.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-21 23:40 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-22 13:14 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
