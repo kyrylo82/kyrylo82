@@ -19,7 +19,7 @@
 | User AI session hours | 1,0h | 21,0h | 34,0h | 34,0h |
 | AI worker hours | 0,0h | 0,0h | 14,0h | 162,0h |
 | AI concurrency hours | 4,0h | 35,0h | 0h | 0h |
-| Interactive sessions | 5 | 12 | 20 | 20 |
+| Interactive sessions | 5 | 11 | 20 | 20 |
 | Worker sessions | 0 | 1 | 9 | 184 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -33,15 +33,15 @@ _AI session 365-day totals cover 12 days of local assistant session history (not
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.5 | 3,661 | 27.4M | 1.1M | 478.4M | $0 | $0 | $0 |
-| claude-opus-4-7 | 194 | 388 | 229K | 26.1M | $0 | $0 | $0 |
+| claude-opus-4-7 | 155 | 319 | 188K | 22.5M | $0 | $0 | $0 |
 | deepseek-v4-flash-free | 7 | 160K | 953 | 214K | $0 | $0 | $0 |
-| **Total** | **3,862** | **27.6M** | **1.3M** | **504.7M** | **$0** | **$0** | **$0** |
+| **Total** | **3,823** | **27.6M** | **1.3M** | **501.2M** | **$0** | **$0** | **$0** |
 
-_537.2M total tokens processed. 94% cache hit rate._
+_532.6M total tokens processed. 94.1% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
-_Model savings are modest because ~94% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~94.1% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -77,5 +77,5 @@ _Model savings are modest because ~93.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-26 10:53 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-26 11:55 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
