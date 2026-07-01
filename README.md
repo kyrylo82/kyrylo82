@@ -16,10 +16,10 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 2,0h | 14,0h | 42,0h | 42,0h |
+| User AI session hours | 2,0h | 13,0h | 42,0h | 42,0h |
 | AI worker hours | 1,0h | 0,0h | 0,0h | 158,0h |
-| AI concurrency hours | 6,0h | 29,0h | 0h | 0h |
-| Interactive sessions | 3 | 8 | 21 | 21 |
+| AI concurrency hours | 6,0h | 28,0h | 0h | 0h |
+| Interactive sessions | 3 | 7 | 21 | 21 |
 | Worker sessions | 1 | 0 | 0 | 184 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -32,12 +32,12 @@ _AI session 365-day totals cover 17 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 3,597 | 29.2M | 1.1M | 474.9M | $0 | $0 | $0 |
+| gpt-5.5 | 3,596 | 29.0M | 1.1M | 474.9M | $0 | $0 | $0 |
 | claude-opus-4-7 | 2 | 12 | 1K | 73K | $0 | $0 | $0 |
 | deepseek-v4-flash-free | 7 | 160K | 953 | 214K | $0 | $0 | $0 |
-| **Total** | **3,606** | **29.3M** | **1.1M** | **475.2M** | **$0** | **$0** | **$0** |
+| **Total** | **3,605** | **29.2M** | **1.1M** | **475.2M** | **$0** | **$0** | **$0** |
 
-_505.8M total tokens processed. 94% cache hit rate._
+_505.7M total tokens processed. 94% cache hit rate._
 
 _$0 total saved ($0 caching + $0 model routing vs all-Opus)._
 
@@ -77,5 +77,5 @@ _Model savings are modest because ~93.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-30 23:15 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-01 10:13 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
